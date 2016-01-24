@@ -26,4 +26,3 @@ username is the username of one ftp account in the ftpserver. You can have anony
 4. show-dir-R <path/> : This command has the same results with the command "ls -R <path/>". All files in the path will be shown  recursively on the screen.
 5. show-urls : All the links that exist in all files of the account are shown on the screen. The files are temporarily downlowded locally.
 6. analyze-html : With this option, the server searches in all .html files and finds the content that it is not included in HTML TAGS (<>). Then, it is created a local dictionart with the different words and their frequency.
-
