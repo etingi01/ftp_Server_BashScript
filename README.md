@@ -21,8 +21,13 @@ username is the username of one ftp account in the ftpserver. You can have anony
 
 [options]:
 1. show-dir : The home dir's content of remote machine is shown on the screen. The files are not dowloaded locally.
+
 2. show-file <path/filename> : The file's content of the second argument is shown on the screen. The file is downloaded locally.
+
 3. find-string <path/> <string> : This command will search for the <string> in the directory defined in the <path/>. The lines of the files that include the <string> will be shown on the screen.
+
 4. show-dir-R <path/> : This command has the same results with the command "ls -R <path/>". All files in the path will be shown  recursively on the screen.
+
 5. show-urls : All the links that exist in all files of the account are shown on the screen. The files are temporarily downlowded locally.
+
 6. analyze-html : With this option, the server searches in all .html files and finds the content that it is not included in HTML TAGS (<>). Then, it is created a local dictionart with the different words and their frequency.
