@@ -20,6 +20,7 @@ ftpserver is the file transfer server
 username is the username of one ftp account in the ftpserver. You can have anonymous access changing the lines 6-11 (instructions in comments)
 
 [options]:
+
 1. show-dir : The home dir's content of remote machine is shown on the screen. The files are not dowloaded locally.
 
 2. show-file <path/filename> : The file's content of the second argument is shown on the screen. The file is downloaded locally.
