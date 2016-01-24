@@ -6,9 +6,7 @@ Two services are offered:
 
 ftpupload.sh:
 To run the file type in the command line: ./ftpupload.sh {filedir} {ftpserver} {username}
-
 filedir is the directory of the files you want to upload in the local machine. The same directory tree will be created in the remote machine.
-
 ftpserver is the file transfer server
 username is the username of one ftp account in the ftpserver. You can have anonymous access changing the lines 6-11 (instructions in comments)
 
