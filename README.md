@@ -2,12 +2,15 @@
 This is an ftp server in Bash Script.
 Two services are offered:
 1. Upload files on the remote machine (ftpupload.sh)
-2. Analyze files that are existed in the remote machine (ftpanalyse.sh)
+2. Analyze files that are existed on the remote machine (ftpanalyse.sh)
 
 ftpupload.sh:
-To run the file type in the command line: ./ftpupload.sh {filedir} {ftpserver} {username}
+To run the file, type in the command line: ./ftpupload.sh {filedir} {ftpserver} {username}
+
 filedir is the directory of the files you want to upload in the local machine. The same directory tree will be created in the remote machine.
+
 ftpserver is the file transfer server
+
 username is the username of one ftp account in the ftpserver. You can have anonymous access changing the lines 6-11 (instructions in comments)
 
 
